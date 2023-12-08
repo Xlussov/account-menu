@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>local Storage</title>
+</head>
+<body>
+   <form id="registrationForm">
+      <div class="form-group">
+        <label for="firstName">Ім'я користувача</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Прізвище користувача</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+      <div class="form-group">
+        <label for="date">Дата народження</label>
+        <input type="date" id="date" name="date">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <div class="form-group">
+        <label for="confirm_password">Підтвердити пароль</label>
+        <input type="password" id="confirm_password" name="confirm_password">
+      </div>
+      <div class="btnRegistration">
+        <button type="submit" id="submit-btn">Зареєструватися</button>
+        <button type="button" id="goToLogInBtn">Вхід</button>
+      </div>
+    </form>
+
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="logInEmail" name="email">
+      </div>
+      <div class="form-group">
+        <label for="password">Пароль</label>
+        <input type="password" id="logInPassword" name="password">
+      </div>
+      <div class="btnLogin">
+        <button type="submit" id="logInBtn">Вхід</button>
+        <button type="button" id="registerBtn">Зареєструватися</button>
+      </div>
+    </form>
+    <div class="userData">
+        <div class="form-group">
+          <p class="el-name">Ім'я користувача:</p>
+          <p id="firstNameIn"></p>
+        </div>
+        <div class="form-group">
+          <p class="el-name">Прізвище користувача:</p>
+          <p id="lastNameIn"></p>
+        </div>
+        <div class="form-group">
+          <p class="el-name">Дата народження:</p>
+          <p id="dateIn"></p>
+        </div>
+        <div class="form-group">
+          <p class="el-name">Email:</p>
+          <p id="emailIn"></p>
+        </div>
+        <div class="form-group">
+          <p class="el-name">Пароль:</p>
+          <p id="passwordIn"></p>
+        </div>
+        <div class="btnDisLogin">
+          <button type="button" id="dislogBtn">Вихід закаунту</button>
+          <button type="button" id="deletAkBtn">Видалити акаунт</button>
+        </div>
+    </div>
+   <script src="js/main.js"></script>
+</body>
+</html>
+

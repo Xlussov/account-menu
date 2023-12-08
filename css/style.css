@@ -1,0 +1,62 @@
+#registrationForm,
+#loginForm{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#registrationForm{
+  display: none;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btnRegistration button,
+.btnLogin button, .btnDisLogin button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(96, 207, 96);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.userData {
+  display: none;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+
+.el-name{
+  font-size: 18px;
+  font-weight: 700;
+
+}
